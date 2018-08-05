@@ -1,0 +1,19 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+}
+
+.Link {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.Link:hover {
+    color: blue;
+    text-decoration: underline;
+}

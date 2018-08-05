@@ -1,0 +1,9 @@
+.share {
+    margin-top: -20px;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to right, #a2a2ec, #bfa0e2);
+    color: black;
+}
