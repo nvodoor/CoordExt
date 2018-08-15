@@ -77,11 +77,12 @@ class Share extends Component {
         } else if (this.state.data === '') {
             list = <p>This is page is still loading.</p>
         } else {
-            list = <ul>
+            list = 
+                    <div class="block">
                     {this.state.data.map(location => 
-                        <BikeShare data={location}/>
+                        <p><BikeShare data={location}/></p>
                     )}
-                    </ul>
+                    </div>
         }
         return (
             <div class="container">

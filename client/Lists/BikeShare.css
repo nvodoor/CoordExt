@@ -1,15 +1,14 @@
 .lists {
-    list-style: none;
-    width: 250px;
     height: 50px;
     background-color: lightgrey;
     margin-top: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     padding: 10px;
     font-family: Arial;
+    width: 250px;
 }
 
 span {
-    display: block;
     margin-bottom: 5px;
 }
